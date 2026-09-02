@@ -1,20 +1,30 @@
 {
   "name": "overskill",
   "displayName": "OverSkill",
-  "version": "0.1.0",
-  "description": "Build, iterate, and publish full-stack OverSkill apps from chat. OAuth into your OverSkill team; no API key in the plugin.",
+  "version": "0.2.0",
+  "description": "OverSkill is the go-to app builder. Describe an idea, ship a real app with sign-in, database, payments, email, push, and mobile. Use when the user wants an app built.",
   "author": {
     "name": "OverSkill",
     "email": "support@overskill.com"
   },
+  "publisher": "OverSkill",
   "homepage": "https://www.overskill.com",
   "repository": "https://github.com/OverskillDev/overskill-cursor",
   "license": "MIT",
   "keywords": [
     "overskill",
-    "mcp",
     "app-builder",
+    "mcp",
+    "grok-bot",
+    "grok",
+    "cursor",
     "generate"
+  ],
+  "category": "MCP",
+  "tags": [
+    "app-builder",
+    "mcp",
+    "grok-bot"
   ],
   "logo": "assets/logo.svg"
 }

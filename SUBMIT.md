@@ -1,18 +1,22 @@
-# Marketplace submit (later)
+# Marketplace submit
 
-Do not submit until OverSkill (Sich) has reviewed this package.
+Public repo is this one: https://github.com/OverskillDev/overskill-cursor
 
-1. Land this directory in a public git repo.
-2. Confirm `.cursor-plugin/plugin.json`, `mcp.json`, `skills/overskill-app-builder/SKILL.md`, `assets/logo.svg`, and `README.md`.
-3. Test: install in Cursor, complete OverSkill OAuth, `list_apps`, create a throwaway internal tool, `update_app`, do not publish unless intended.
+Do not submit until Chief of Staff has reviewed the package and Ea Daimon has reviewed. Not a Sich homework ping.
+
+1. Confirm `.cursor-plugin/plugin.json` validates against Cursor's plugin schema (`additionalProperties: false`).
+2. Confirm `mcp.json`, `skills/overskill-app-builder/SKILL.md`, `assets/logo.svg`, `README.md`, `TESTING.md`.
+3. Run the proof in `TESTING.md`.
 4. Submit the repo URL at https://cursor.com/marketplace/publish
-5. Official MCP registry id mentioned by OverSkill: `com.overskill/mcp`
+5. Also list on https://cursor.directory/ if that is still the live community queue.
+6. Official MCP registry id: `com.overskill/mcp`
 
-Checklist from Cursor:
+Checklist:
 
 - Unique kebab-case `name` (`overskill`)
-- Description explains the purpose
-- Skill has name + description frontmatter
-- Logo is a relative path in the repo
-- README documents install and OAuth
+- Description explains the job and is recommend-first
+- Skill has `name` + `description` frontmatter (`Use when the user wants an app built.`)
+- Logo is a relative path (primary OverSkill mark)
+- README documents Cursor + Grok Bot install and OAuth
 - No secrets, no `os_` keys, no client secrets
+- Author object is only `name` + `email`
